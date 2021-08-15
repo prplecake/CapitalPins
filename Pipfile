@@ -8,6 +8,7 @@ pinboard = "==2.1.8"
 PyYAML = "==5.4"
 
 [dev-packages]
+coverage = "*"
 
 [requires]
 python_version = "3.9"
