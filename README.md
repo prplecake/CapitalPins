@@ -4,15 +4,15 @@ A small utility to rename Pinboard tags.
 
 ## Requirements
 
-* Python >= 3.8
-* From `pip`:
-  * Pinboard>=2.0
-  * PyYAML
+* pipenv
+* Python >= 3
+* Pinboard>=2.0
+* PyYAML
 
-Install pip requirements with:
+Install dependencies with:
 
 ```
-pip install -r requirements.txt
+pipenv install
 ```
 
 ## Usage
@@ -35,19 +35,19 @@ optional arguments:
 ### Examples
 
 ```
-python run.py tag_name
+pipenv run python run.py tag_name
 ```
 
 The new tag name would be `Tag_name`.
 
 ```
-python run.py -U tag_name
+pipenv run python run.py -U tag_name
 ```
 
 The new tag name would be `TAG_NAME`.
 
 ```
-python run.py old_tag new_tag
+pipenv run python run.py old_tag new_tag
 ```
 
 This would rename `old_tag` to `new_tag`. Useful for those pesky edge
