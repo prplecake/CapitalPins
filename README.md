@@ -11,13 +11,13 @@ A small utility to rename Pinboard tags.
 
 Install dependencies with:
 
-```
+```shell
 pipenv install
 ```
 
 ## Usage
 
-```
+```text
 usage: run.py [-h] [--dry-run] [-U] old_name [new_name]
 
 Capitalize Pinboard tags.
@@ -34,19 +34,19 @@ optional arguments:
 
 ### Examples
 
-```
+```shell
 pipenv run python run.py tag_name
 ```
 
 The new tag name would be `Tag_name`.
 
-```
+```shell
 pipenv run python run.py -U tag_name
 ```
 
 The new tag name would be `TAG_NAME`.
 
-```
+```shell
 pipenv run python run.py old_tag new_tag
 ```
 
