@@ -6,7 +6,7 @@ import pinboard
 
 _base_dir = sys.path[0]
 
-cfg = yaml.load(open(_base_dir+"/config.yaml", "r"), Loader=yaml.FullLoader)
+cfg = yaml.load(open(_base_dir+"/config.yaml", "r"), Loader=yaml.SafeLoader)
 
 parser = argparse.ArgumentParser(description='Capitalize Pinboard tags.')
 parser.add_argument('old_name')
