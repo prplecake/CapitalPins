@@ -4,7 +4,6 @@ A small utility to rename Pinboard tags.
 
 ## Requirements
 
-* pipenv
 * Python >= 3
 * Pinboard>=2.0
 * PyYAML
@@ -12,7 +11,7 @@ A small utility to rename Pinboard tags.
 Install dependencies with:
 
 ```shell
-pipenv install
+python -m pip install -r requirements.txt
 ```
 
 ## Usage
@@ -35,19 +34,19 @@ optional arguments:
 ### Examples
 
 ```shell
-pipenv run python run.py tag_name
+python run.py tag_name
 ```
 
 The new tag name would be `Tag_name`.
 
 ```shell
-pipenv run python run.py -U tag_name
+python run.py -U tag_name
 ```
 
 The new tag name would be `TAG_NAME`.
 
 ```shell
-pipenv run python run.py old_tag new_tag
+python run.py old_tag new_tag
 ```
 
 This would rename `old_tag` to `new_tag`. Useful for those pesky edge

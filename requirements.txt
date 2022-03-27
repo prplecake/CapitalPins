@@ -1,0 +1,2 @@
+pinboard==2.1.8
+PyYAML==6.0
