@@ -1,7 +1,8 @@
 import argparse
-import pinboard
 import sys
 import yaml
+
+import pinboard
 
 _base_dir = sys.path[0]
 
