@@ -1,5 +1,3 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/prplecake/capitalpins/badge)](https://www.codefactor.io/repository/github/prplecake/capitalpins)
-
 # CapitalPins
 
 A small utility to rename Pinboard tags.
